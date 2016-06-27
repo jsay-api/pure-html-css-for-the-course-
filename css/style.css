@@ -1,0 +1,407 @@
+html, body {height: 100%; margin: 0; padding: 0;}
+#container {
+	width: 1920px;
+	height: 4320px; 
+	margin: 0 auto;
+}
+/* Welcome page */
+div.welcome {
+	background-color: #20272f;
+	width: 1920px;
+	height: 1080px;
+	z-index: 0; 
+}
+div.header {
+	background-color: #2b323a;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.32);
+	width: 1920px;
+	height: 91px;
+	z-index: 1;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+div.footer {
+	background-color: #2b323a;
+	width: 1920px;
+	height: 149px;
+	z-index: 1;
+	position: relative;
+	top: 667px;
+}
+ul.menu {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 40px; /* Значение полей */
+    text-align: center;
+}
+   ul.menu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 6px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+	font-family: 'PT Sans', sans-serif;	
+	color: #fff;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: center;
+}
+li>a:hover {color: #ed5565;}
+a:link{
+   	color: #fff;
+   	text-decoration: none;
+}
+h1 {
+	text-align: center;
+	position: relative;
+	top: 430px;
+	margin: 0px;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+    font-size: 38.38px;/* Approximation due to font substitution */
+    font-weight: bold;
+    text-align: center;
+    transform: scaleY(1.0035);/* width and height properties ommitted due to transform */
+}
+img.camera {
+	position: relative;
+	left: 3px;
+	width: 48px;
+	height: 40px;
+}
+ img.dot {
+ 	position: relative;
+ 	left: 7px;
+ }
+div.line {
+	position: relative;
+	top: 440px;
+	left: 810px;
+	height: 10px;
+	width: 300px;
+	border-bottom: 1px solid #fff;
+	margin-right: 900px;
+}
+p.welcome {
+	position: relative;
+	margin: 0px;
+	top: 456px;
+	font-family: 'Roboto', sans-serif;	
+	color: #fff;
+	font-size: 23px;/* Approximation due to font substitution */
+	font-weight: 100;
+	line-height: 42px;/* Approximation due to font substitution */
+	text-align: center;
+}
+ul.links {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 50px; /* Значение полей */
+    text-align: center;
+}
+ul.links li {
+    display: inline; /* Отображать как строчный элемент */
+    margin: 51px; /* Отступ слева */
+    padding: 0px; /* Поля вокруг текста */
+	text-align: center;
+}
+img.scroll {
+	position: relative;
+	top: 557px;
+	left: 47.1%;
+}
+/* Resume page */ 
+div.resume {
+	width: 1920px;
+	height: 1080px;
+	background-image: url(../pics/resume.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h1.resume {
+	font-family: 'Roboto', sans-serif;
+	color: #ed5565;
+	font-size: 32px;/* Approximation due to font substitution */
+	font-weight: 300;
+	line-height: 42px;/* Approximation due to font substitution */
+	text-align: center;
+	position: relative;
+	top: 100px;
+	margin: 0px;
+} 
+div.greyline {
+	position: relative;
+	top: 110px;
+	left: 894px;
+	width: 132px;
+	border-bottom: 1px solid #dbdbdb;
+	z-index: 0;
+}
+div.redline {
+	position: relative;
+	top: 108px;
+	left: 934px;
+	width: 52px;
+	border-bottom: 1px solid #ed5565;
+	z-index: 1;
+}
+p.resume {
+	font-family: 'Roboto', sans-serif;
+	color: #666666;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 100;
+	line-height: 26px;/* Approximation due to font substitution */
+	text-align: center;
+	position: relative;
+	top: 125px;
+}
+div.button {
+	border-radius: 3px;
+	background-color: #ed5565;
+	width: 165px;
+	height: 46px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 21px;/* Approximation due to font substitution */
+	font-weight: 300;
+	line-height: 42px;
+	position: relative;
+	top: 132px;
+	left: 877px;
+	padding: 4px;
+}
+img.scrollred {
+	position: relative;
+	top: 744px;
+	left: 48%;
+}
+/* Work page */
+div.work {
+	width: 1920px;
+	height: 1080px;
+	background-color: #434a54;
+	background-image: url(../pics/resume.png);
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+h1.work {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 32px;/* Approximation due to font substitution */
+	font-weight: 300;
+	line-height: 42px;/* Approximation due to font substitution */
+	text-align: center;
+	position: relative;
+	top: 100px;
+	margin: 0px;
+}
+div.gline {
+	position: relative;
+	top: 110px;
+	left: 913px;
+	width: 95px;
+	border-bottom: 1px solid #757a81;;
+	z-index: 0;
+}
+div.whiteline {
+	position: relative;
+	top: 109px;
+	left: 944px;
+	width: 32px;
+	border-bottom: 1px solid #fff;
+	z-index: 1;
+}
+p.work {
+	font-family: 'Roboto', sans-serif;
+	color: #e1e5eb;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 100;
+	line-height: 26px;/* Approximation due to font substitution */
+	text-align: center;
+	position: relative;
+	top: 115px;
+}
+div.longline {
+	position: relative;
+	top: 125px;
+	left: 862px;
+	width: 195px;
+	border-bottom: 1px solid #757a81;
+}
+ul.work {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 40px; /* Значение полей */
+    text-align: center;
+}
+   ul.work li {
+    display: inline; /* Отображать как строчный элемент */
+  	margin-right: 8px;
+    padding: 4px; /* Поля вокруг текста */
+	font-family: 'Roboto', sans-serif;	
+	color: #fff;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 100;
+	line-height: 26px;
+	text-align: center;
+	position: relative;
+	top: 113px;
+}
+div.pic {
+	width: 959px;
+	height: 530px;
+	margin-left: 480px;
+	margin-right: 500px;
+	background-color: transparent;
+	position: relative;
+	top: 108px;
+}
+div.pic > div {
+	width: 300px;
+	height: 250px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+	position: relative;
+	display: inline-block;
+}
+div.pic > div:hover {
+	background-image: url(../pics/hover.png);
+}
+div.pic1 {
+	float: left;
+	margin: 0px 30px 30px 0px;
+}
+div.pic2 {
+	float: left;
+	margin: 0px 0px 30px;
+}
+div.pic3 {
+	/* float: left; */
+	top: -280px;
+	float: right;
+	margin: 0px 0px 30px 30px;
+}
+div.pic4 {
+	/* float: left; */
+	margin-right: 30px;
+}
+div.pic5 {
+	left: 330px;
+	top: -254px;
+	margin: 0px;
+}
+div.pic6 {
+	float: right;
+	top: -508px;
+	margin-left: 30px;
+}
+img.scrollgrey {
+	position: relative;
+	top: 157px;
+	left: 48%; 
+}
+/* Contact page */
+div.contact {
+	width: 1920px;
+	height: 1080px;
+	background-image: url(../pics/resume.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h1.contact {
+	font-family: 'Roboto', sans-serif;
+	color: #ed5565;
+	font-size: 32px;/* Approximation due to font substitution */
+	font-weight: 300;
+	line-height: 42px;/* Approximation due to font substitution */
+	text-align: center;
+	position: relative;
+	top: 102px;
+	left: 403px;
+}
+p.contact {
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 100;
+	line-height: 26px;/* Approximation due to font substitution */
+	text-align: center;
+	position: relative;
+	top: 121px;
+	left: 410px;
+}
+div.lineagain {
+	position: relative;
+	top: 125px;
+	left: 862px;
+	width: 195px;
+	border-bottom: 1px solid #dbdbdb;
+}
+fieldset {
+	display: block;
+    border: 0px;
+    position: relative;
+    left: 660px;
+    top: 140px; 
+}
+input.capitalize {text-transform: capitalize;}
+input {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f1f1f1;
+	box-sizing: border-box;
+	background-color: #fff;
+	width: 560px;
+	height: 55px;
+}
+label {
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	font-size: 14px;/* Approximation due to font substitution */
+	font-weight: 100;
+	line-height: 26px;/* Approximation due to font substitution */
+	text-align: center;
+}
+textarea {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f1f1f1;
+	box-sizing: border-box;
+	background-color: #fff;
+	width: 560px;
+	height: 135px;
+	resize: none;
+}
+div.send {
+	border-radius: 3px;
+	background-color: #434a54;
+	width: 170px;
+	height: 36px;
+	position: relative;
+	top: 120px;
+	left: 873px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 14px;/* Approximation due to font substitution */
+	font-weight: 100;
+	line-height: 26px;/* Approximation due to font substitution */
+	text-align: center;
+	padding-top: 11px;
+}
+div.endfooter {
+	background-color: #434a54;
+	width: 1920px;
+	height: 241px;
+	z-index: 1;
+	position: relative;
+	top: 200px;  
+}
+img.scrollend {
+	position: relative;
+	top: -20px;
+	left: 47.7%;
+}
+div.endfooter > ul {
+	/* position: relative; */
+	/* left: 400px; */
+	text-align: center;
+}
